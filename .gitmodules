@@ -1,0 +1,6 @@
+[submodule "HavocLearn/dependencies/eigen"]
+	path = HavocLearn/dependencies/eigen
+	url = https://gitlab.com/JoelMTom/eigen.git
+[submodule "HavocLearn/dependencies/raylib"]
+	path = HavocLearn/dependencies/raylib
+	url = git@github.com:JoelMTom/raylib.git
