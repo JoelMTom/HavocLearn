@@ -10,7 +10,7 @@ namespace HavocLearn
 	void NeuralNetwork::Init()
 	{
 		//srand(10);
-		srand(unsigned int(time(0)));
+		srand((unsigned int)(time(0)));
 
 		for (int i = 1; i < m_Arch.size(); i++)
 		{
