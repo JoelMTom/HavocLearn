@@ -24,7 +24,3 @@ for _, folderName in pairs(folders) do
 	end
 end
 
-filter "system:windows"
-defines { "_WIN32" }
-libdirs { "%{wks.location}/build/**" }
-links { "raylib.lib" }
