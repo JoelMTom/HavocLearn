@@ -1,11 +1,13 @@
 #include <iostream>
 #include <cmath>
 
+
 #include <Core/NeuralNetwork.h>
 
 
 int main()
 {
+
 	HavocLearn::NeuralNetwork nn({2, 2, 1}, 1.0f);
 	nn.Init();
 
@@ -34,7 +36,6 @@ int main()
 		std::cout << in(0) << " ^ " << in(1) << " = " << nn.Forward(in)(0, 0) << " Cost: " << nn.Cost(in, op) << std::endl;
 	}
 	std::cout << "-------------------------------------\n" << std::endl;
-
 
 	return 0;
 }
