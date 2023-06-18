@@ -24,3 +24,6 @@ for _, folderName in pairs(folders) do
 	end
 end
 
+filter "system:windows"
+	libdirs { "%{wks.location}/build/**" }
+	links("Raylib.lib")
